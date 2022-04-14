@@ -6,6 +6,8 @@ metadata:
     - url: "http://github.com/openedx/edx-platform"
       title: "Source Code"
       icon: "Code"
+  annotations:
+    openedx.org/arch-interest-groups: "feanil,djoy,dormsbee,nedbat"
 spec:
   owner: group:tcril-engineering
   type: 'backend-service'
