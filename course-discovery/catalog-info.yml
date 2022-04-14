@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: 'course-discovery'
+  links:
+    - url: "http://github.com/openedx/course-discovery"
+      title: "Source Code"
+      icon: "Code"
+relations:
+  - target: resource:edx-platform
+    type: dependsOn
+spec:
+  owner: group:engage
+  type: 'backend-service'
