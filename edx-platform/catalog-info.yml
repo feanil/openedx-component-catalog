@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Resource
+kind: Component
 metadata:
   name: 'edx-platform'
   description: "A test description."
@@ -11,4 +11,5 @@ metadata:
     openedx.org/arch-interest-groups: "feanil,djoy,dormsbee,nedbat"
 spec:
   owner: group:tcril-engineering
-  type: 'backend-service'
+  type: 'source-code'
+  lifecycle: 'production'

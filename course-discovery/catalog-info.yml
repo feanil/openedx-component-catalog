@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Resource
+kind: Component
 metadata:
   name: 'course-discovery'
   links:
@@ -8,6 +8,7 @@ metadata:
       icon: "Code"
 spec:
   owner: group:engage
-  type: 'backend-service'
+  type: 'source-code'
+  lifecycle: 'production'
   dependsOn:
-    - resource:edx-platform
+    - component:edx-platform
