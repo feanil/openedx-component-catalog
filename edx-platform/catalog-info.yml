@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
   name: 'edx-platform'
+  description: "A test description."
   links:
     - url: "http://github.com/openedx/edx-platform"
       title: "Source Code"
