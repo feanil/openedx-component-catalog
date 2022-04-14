@@ -6,12 +6,8 @@ metadata:
     - url: "http://github.com/openedx/course-discovery"
       title: "Source Code"
       icon: "Code"
-relations:
-  - target:
-      kind: resource
-      namespace: default
-      name: edx-platform
-    type: dependsOn
 spec:
   owner: group:engage
   type: 'backend-service'
+  dependsOn:
+    - resource:edx-platform
