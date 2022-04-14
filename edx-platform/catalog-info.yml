@@ -1,5 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
+metadata:
+  name: 'edx-platform'
+  links:
+    - url: "http://github.com/openedx/edx-platform"
+      title: "Source Code"
+      icon: "Code"
 spec:
   owner: group:tcril-engineering
   type: 'backend-service'
