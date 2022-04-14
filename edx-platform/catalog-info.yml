@@ -1,0 +1,5 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+spec:
+  owner: group:tcril-engineering
+  type: 'backend-service'
